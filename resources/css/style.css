@@ -26,12 +26,11 @@ h1 {
 
 /* Header */
 header {
-  background-color: cadetblue;
   color: white;
   display: flex;
-  height: 3rem;
-  margin-top: 1rem;
-  object-position: center;
+  background-image: url(".resources/images/glasses-bg.png");
+  height: 30rem;
+
 
 
 }
@@ -42,6 +41,12 @@ header {
   justify-content: space-between;
   object-position: center;
   width: 100%;
+  align-items: center;
+  background-color: cadetblue;
+  height: 3rem;
+  margin-top: 1rem;
+  object-position: center;
+  justify-content: center;
 }
 
 .logo-block {
@@ -54,7 +59,7 @@ header {
 .logo-block,
  img {
   height: 1.5rem;
-  padding: 0 1rem 0 2rem;
+  padding-right: 1rem;
 }
 
 .nav-block {
