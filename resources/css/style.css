@@ -1,0 +1,68 @@
+
+/* Universal */
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: helvetica; sans-serif;
+
+}
+
+div {
+  display: block;
+  border: 1px solid black;
+}
+
+h1 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.container {
+  width: 960px;
+  display: block;
+}
+
+/* Header */
+header {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  height: 3rem;
+  margin-top: 1rem;
+  object-position: center;
+
+
+}
+
+.header {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  object-position: center;
+  width: 100%;
+}
+
+.logo-block {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.logo-block,
+ img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.nav-block {
+  display: flex;
+  flex-direction: row;
+
+}
+
+ul li {
+  display: inline;
+}
