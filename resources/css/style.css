@@ -97,3 +97,81 @@ ul li {
   margin: 10rem -2rem 0 0;
   background-color: white;
 }
+
+/* Img Banner */
+
+.icon-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem 3rem 3rem 3rem;
+
+}
+
+
+.icon-box img {
+  margin-bottom: 1rem;
+  width: 5rem;
+}
+
+.icon-box .paper-icon {
+  width: 3.5rem;
+}
+
+.icon-title {
+  display: block;
+}
+
+/* About Us Section */
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 0 2.5% 0 0;
+}
+
+
+.content-title h4 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding: .5rem 0rem .5rem 1.25rem;
+  text-align: left;
+  width: 10rem;
+}
+
+.about-content {
+  padding-top: 1rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: azure;
+}
+
+footer
+img  {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
